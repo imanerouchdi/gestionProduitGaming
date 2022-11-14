@@ -1,0 +1,26 @@
+html,body{
+    height: 100%;
+    background-color:#5f16a9 !important;
+    font-family: "reboto",sans-serif;
+}
+.global-container{
+    /* height: 100%; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* background: linear-gradient(90deg, rgba(154,22,211,1) 35%, rgba(110,22,179,1) 100%); */
+
+}
+input[type="email"],input[type="password"],input[type="text"],button[type="submit"]{
+    /* background: linear-gradient(90deg, rgba(154,22,211,1) 35%, rgba(110,22,179,1) 100%); */
+    background: linear-gradient(90deg, rgba(154,22,211,1) 35%, rgba(110,22,179,1) 100%);
+   
+    border: 2px solid rgb(147, 55, 212);
+}
+input[type="email"]:focus,input[type="password"]:focus,input[type="text"]:focus{
+    background: white;
+    font-size: medium;
+}
+h1,label, .signup{
+    color:rgb(147, 55, 212)  ;
+}
